@@ -8,6 +8,10 @@ import android.text.format.DateFormat;
 /**
  * Created by Kabin Kale on 7/28/2016.
  */
+
+/**
+ * This class is an intent service class that does work one by one after queuing it.
+ */
 public class SimpleIntentService extends IntentService {
     public static final String PARAM_IN_MSG = "imsg";
     public static final String PARAM_OUT_MSG = "omsg";
